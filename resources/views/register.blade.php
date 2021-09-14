@@ -189,7 +189,7 @@
                         <input name="repeat_password" type="password" class="form-control" id="repeat_password" placeholder="Repeat password" required autofocus>
                     </div>
 
-                    <div class="invalid-feedback" id="wrongInputID" style="text-align: right;">PETA</div>
+                    <div class="invalid-feedback" id="wrongInputID" style="text-align: right;"></div>
                     <button class="btn btn-lg btn-primary btn-block" onclick="registerUser()" id="register" type="button">Register</button>
                     <div class="text-danger text-center" id="error"></div>
                 </form>
